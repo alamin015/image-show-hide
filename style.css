@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 992px;
+  width: 98%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.button {
+  padding: 10px 25px;
+  background: rgb(20, 20, 248);
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  border: 1px solid rgb(20, 20, 248);
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+.button:hover {
+  background: transparent;
+  color: rgb(20, 20, 248);
+  cursor: pointer;
+}
+
+.img {
+  max-width: 600px;
+  width: 97%;
+  margin: 20px auto;
+  text-align: center;
+}
+.img.control {
+  display: none;
+}
+
+img {
+  width: 98%;
+  margin: 0 auto;
+}
